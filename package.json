@@ -1,0 +1,33 @@
+{
+  "name": "api-bug",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Dr. Carsten Leue <carsten.leue@de.ibm.com>",
+  "main": "index.js",
+  "scripts": {
+    "api-extractor": "api-extractor run",
+    "build": "ng-packagr  -p package.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/compiler": "^7.2.2",
+    "@angular/compiler-cli": "^7.2.2",
+    "@angular/core": "^7.2.2",
+    "ng-packagr": "^4.7.0",
+    "rxjs": "^6.3.3",
+    "tsickle": "^0.34.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.4",
+    "zone.js": "^0.8.29"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./src/index.ts"
+    },
+    "whitelistedNonPeerDependencies": [
+      ".*"
+    ]
+  }
+}
