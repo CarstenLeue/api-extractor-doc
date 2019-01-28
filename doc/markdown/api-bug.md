@@ -12,5 +12,5 @@
 
 |  Function | Description |
 |  --- | --- |
-|  [myFunction(aParam, aObs$)](./api-bug.myfunction.md) | Doc of my exported function |
+|  [myFunction(aParam, aObs)](./api-bug.myfunction.md) | Doc of my exported function |
 

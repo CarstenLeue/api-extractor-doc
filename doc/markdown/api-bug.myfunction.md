@@ -7,5 +7,5 @@ Doc of my exported function
 <b>Signature:</b>
 
 ```typescript
-export declare function myFunction(aParam: string, aObs$: Observable<string>): string;
+export declare function myFunction(aParam: string, aObs: Observable<string>): string;
 ```

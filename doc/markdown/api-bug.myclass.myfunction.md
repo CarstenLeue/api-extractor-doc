@@ -7,7 +7,7 @@ Doc of my exported function
 <b>Signature:</b>
 
 ```typescript
-myFunction(aParam: string, aObs$: Observable<string>): string;
+myFunction(aParam: string, aObs: Observable<string>): string;
 ```
 
 ## Parameters
@@ -15,7 +15,7 @@ myFunction(aParam: string, aObs$: Observable<string>): string;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  aParam | `string` | first parameter |
-|  aObs$ | `Observable<string>` |  |
+|  aObs | `Observable<string>` | second parameter |
 
 <b>Returns:</b>
 

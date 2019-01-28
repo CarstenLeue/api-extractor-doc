@@ -12,5 +12,5 @@ export declare class MyClass
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [myFunction(aParam, aObs$)](./api-bug.myclass.myfunction.md) |  | Doc of my exported function |
+|  [myFunction(aParam, aObs)](./api-bug.myclass.myfunction.md) |  | Doc of my exported function |
 
